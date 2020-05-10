@@ -1,4 +1,4 @@
-# Initial Page
+# 表紙
 
 ## HTM入門
 

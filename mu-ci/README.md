@@ -1,2 +1,2 @@
-# Table of contents
+# 目次
 
