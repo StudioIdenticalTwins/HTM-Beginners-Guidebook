@@ -1,6 +1,9 @@
 # Table of contents
 
-* [タイトル](README.md)
-* [はじめに](hajimeni.md)
-* [目次](mu-ci.md)
+* [Title](README.md)
+* [Introduction](hajimeni.md)
+* [Table of contents](mu-ci.md)
+* [Chapter 1](chapter-1/README.md)
+  * [Install](chapter-1/install.md)
+  * [Import](chapter-1/import.md)
 

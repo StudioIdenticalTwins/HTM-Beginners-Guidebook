@@ -1,4 +1,4 @@
-# 目次
+# Table of contents
 
 ### 第1章
 

@@ -1,8 +1,8 @@
 ---
-description: サブタイトル
+description: subtitle
 ---
 
-# タイトル
+# Title
 
 !\[image\]\([https://cldup.com/NXP9YWUO7h.jpg](https://cldup.com/NXP9YWUO7h.jpg)\)
 
