@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [タイトル](README.md)
+* [はじめに](hajimeni.md)
+* [目次](mu-ci.md)
 
