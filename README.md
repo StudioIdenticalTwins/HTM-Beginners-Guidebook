@@ -1,6 +1,4 @@
 # 表紙
 
-## HTM入門
-
-![Title Image](.gitbook/assets/tattyan-26096-unsplash.jpg)
+![](.gitbook/assets/bret-kavanaugh-_af0_qah4k4-unsplash.jpg)
 
