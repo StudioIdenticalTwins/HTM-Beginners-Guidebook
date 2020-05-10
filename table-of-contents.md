@@ -1,3 +1,7 @@
+---
+description: Table of contents
+---
+
 # 目次
 
 {% page-ref page="chapter-1/" %}

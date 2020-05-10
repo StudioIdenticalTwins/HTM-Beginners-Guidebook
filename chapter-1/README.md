@@ -1,6 +1,6 @@
 ---
-description: HTMのオープンソース・プラットフォーム
+description: Hierarchical Temporal Memory (HTM) community fork (continuation) of NuPIC.
 ---
 
-# ライブラリ
+# プラットフォーム
 

@@ -1,25 +1,41 @@
+---
+description: Install
+---
+
 # インストール
 
-## Getting Super Powers
+### オープンソース・プラットフォーム
 
-Becoming a super hero is a fairly straight forward process:
+HTMを利用するには、Numenta社の開発するオープンソース・プラットフォーム[NuPIC](https://github.com/numenta/nupic)を利用する。ただし、公開が2013年でありPython2系しか対応していないので注意が必要である。
 
-```
-$ give me super-powers
-```
+Python2系のサポート期間が2020年1月に切れることを受け、HTMコミュニティーの有志がPython3系のコミュニティーフォーク版を作成した。
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+それが2019年に公開された[htm.core](https://github.com/htm-community/htm.core)である。本著はこのプラットフォームの取り扱い方法をまとめることにより、HTM理論の入門とすることを目的とする。
 
-Once you're strong enough, save the world:
+### ロードマップ
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+htm.coreのロードマップは以下のようにしめされている。
+
+> #### **ユーザビリティ（現在）**
+>
+> 誰でもこのプロジェクトを使うことができるはずである。このプロジェクトに不慣れな人がダウンロードして、コンパイルして、簡単なプログラムを実行するのに30分もかからないはずである。私たちは以下のことに取り組んでいる。
+>
+> * クロスプラットフォームのサポート
+> * 不要な依存関係の削除
+> * python3への切り替え
+> * リポジトリの一般的なクリーンアップと内部構造の整理
+>
+> #### スピード（次の課題）
+>
+> リアルタイムでデータを処理するのに十分な速さが必要である。
+>
+> #### 研究（さらなる課題）
+>
+> 脳への理解が深まるにつれ、このプロジェクトも進化を続ける。
+
+Python3の置き換えだけでなく、NuPICと比較すると大きく変更されているプロパティも多い。それは上記の目的を達成するためである。
+
+
 
 
 
