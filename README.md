@@ -6,5 +6,3 @@ description: 自分でつくる機械知能
 
 ![](.gitbook/assets/bret-kavanaugh-_af0_qah4k4-unsplash.jpg)
 
-![](.gitbook/assets/bret-kavanaugh-_af0_qah4k4-unsplash%20%281%29.jpg)
-
