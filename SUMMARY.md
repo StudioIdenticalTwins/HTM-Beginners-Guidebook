@@ -1,7 +1,6 @@
 # Table of contents
 
 * [HTM入門~自分でつくる機械知能](README.md)
-* [目次](table-of-contents.md)
 * [第1章 NuPIC コミュニティーフォーク](chapter-1/README.md)
   * [htm.core 概要](chapter-1/overview-htm-core.md)
   * [インストール](chapter-1/install-htm-core/README.md)
@@ -20,5 +19,5 @@
   * [TM 概要](chapter-5/tm-overview.md)
 * [第6章 参考アプリケーション](chapter-6/README.md)
   * [HotGym](chapter-6/hotgym.md)
-* [引用](yin-yong.md)
+* [引用](citing.md)
 
