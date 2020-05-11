@@ -1,10 +1,12 @@
 ---
-description: 自分でつくる機械知能
+description: HTM Introduction - How to make Machine Intelligence
 ---
 
-# HTM入門
+# HTM入門~自分でつくる機械知能
 
-![Title icon](.gitbook/assets/color-1.png)
+![Title](.gitbook/assets/color.png)
 
-
+{% hint style="danger" %}
+ver.alpha May.2020
+{% endhint %}
 
