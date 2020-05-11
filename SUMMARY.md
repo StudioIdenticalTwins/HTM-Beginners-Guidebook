@@ -1,6 +1,6 @@
 # Table of contents
 
-* [HTM入門](README.md)
+* [自分でつくる機械知能](README.md)
 * [第1章 NuPIC コミュニティーフォーク](chapter-1/README.md)
   * [htm.core 概要](chapter-1/overview-htm-core.md)
   * [インストール](chapter-1/install-htm-core/README.md)

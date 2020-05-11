@@ -1,8 +1,8 @@
 ---
-description: 自分でつくる機械知能 How to make Machine Intelligence.
+description: How to make Machine Intelligence.
 ---
 
-# HTM入門
+# 自分でつくる機械知能
 
 ![Title](.gitbook/assets/color.png)
 
