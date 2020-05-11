@@ -7,6 +7,7 @@
     * [Ubuntu](chapter-1/install/ubuntu.md)
     * [macOS](chapter-1/install/macos.md)
     * [Windows](chapter-1/install/windows.md)
+    * [ARM64](chapter-1/install/arm64.md)
   * [インポート](chapter-1/import.md)
   * [チュートリアル](chapter-1/tutrial.md)
 * [SDR](chapter-2/README.md)
