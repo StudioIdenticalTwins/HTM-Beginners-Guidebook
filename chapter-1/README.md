@@ -2,7 +2,7 @@
 description: Hierarchical Temporal Memory (HTM) community fork (continuation) of NuPIC.
 ---
 
-# HTMコミュニティフォーク
+# htm.core
 
 ![chapter-1](../.gitbook/assets/business.png)
 
