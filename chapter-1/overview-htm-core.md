@@ -4,15 +4,11 @@ description: Overview of htm.core
 
 # NuPIC コミュニティーフォーク
 
-### オープンソース・プラットフォーム
-
 HTMを利用するには、Numenta社の開発するオープンソース・プラットフォーム[NuPIC](https://github.com/numenta/nupic)を利用します。ただし、公開が2013年でありPython2系しか対応していないので注意が必要です。
 
 Python2系のサポート期間が2020年1月に切れることを受け、HTMコミュニティーの有志がPython3系のコミュニティーフォーク版を作成しました。
 
 それが2019年に公開された[htm.core](https://github.com/htm-community/htm.core)です。本著はこのプラットフォームの取り扱い方法をまとめることにより、HTM理論の入門とすることを目的とします。
-
-### ロードマップ
 
 htm.coreのロードマップは以下のように記されています。
 

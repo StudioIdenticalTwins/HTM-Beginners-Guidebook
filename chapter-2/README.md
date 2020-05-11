@@ -6,5 +6,5 @@ description: SDR (Sparse Distributed Representations) of htm.core
 
 ![Chapter-2](../.gitbook/assets/automaton.png)
 
-
+この章では、SDR（スパース分散表現）ついて解説します。HTMでは情報を疎（そ）の状態で表現します。これは、新皮質のニューロンがまばらに活性化されることにヒントを得ました。HTMシステムの根幹をなす情報処理をおこないますのでしっかりと理解しましょう。
 

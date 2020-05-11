@@ -6,11 +6,7 @@ description: Install macOS Catalina
 
 ![&#x56F3;1-2](../../.gitbook/assets/1-2.png)
 
-### macOS Catalina
-
 macOSに関しても1箇所をのぞき、Ubuntuと同じ手順でインストールがおこなえます。ここではmacOS Catalina 10.15.4 とPython 3.7.1 を使用します。
-
-### **Pythonによるビルド**
 
 コア部分であるC++をコンパイルするために、cmake、g++、clang++ などをインストールしてください。
 
