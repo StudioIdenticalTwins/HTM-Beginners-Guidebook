@@ -20,5 +20,5 @@ export ARCHFLAGS="-arch arm64"
 ```
 {% endcode %}
 
-それ以外は、通常のUbuntuとおなじインストール方法をおこないます。ただし、コンパイラーのインストールに多少時間がかかります。詳細は [rpi4-install-htm-core.md](https://github.com/PonDad/My-HTM-learning/blob/master/appendix-2/rpi4-install-htm-core.md) を参照してください。
+それ以外は、通常のUbuntuとおなじインストール方法をおこないます。ただし、コンパイラー依存関係が少し複雑なのでここでは説明を省きます。詳細は [rpi4-install-htm-core.md](https://github.com/PonDad/My-HTM-learning/blob/master/appendix-2/rpi4-install-htm-core.md) を参照してください。
 

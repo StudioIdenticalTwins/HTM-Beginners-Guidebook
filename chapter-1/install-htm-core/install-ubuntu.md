@@ -8,8 +8,6 @@ description: Install Ubuntu 18.04.4
 
 **Ubuntu18.04**
 
-[htm.core](https://github.com/htm-community/htm.core) の設置方法を参考に、プラットフォームをインストールします。コア部分はC++ですが、API経由でPython3で利用できます。 
-
 Ubuntuは依存関係の影響を受けにくいため、最も簡単にビルドすることができます。ここではUbuntu18.04.4 LTS、Python 3.6.9でインストールします。
 
 **Pythonによるビルド**

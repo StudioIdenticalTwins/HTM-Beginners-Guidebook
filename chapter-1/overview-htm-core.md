@@ -2,7 +2,7 @@
 description: Overview of htm.core
 ---
 
-# 概要
+# htm.core 概要
 
 ### オープンソース・プラットフォーム
 
