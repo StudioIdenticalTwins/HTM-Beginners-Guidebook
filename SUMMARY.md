@@ -1,8 +1,10 @@
 # Table of contents
 
 * [HTM入門](README.md)
-* [第1章 NuPIC コミュニティーフォーク](chapter-1/README.md)
-  * [htm.core 概要](chapter-1/overview-htm-core.md)
+* [はじめに](introduction.md)
+* [第1章 HTM（階層的一時記憶）](chapter-1/README.md)
+  * [HTM概要](chapter-1/htm-overview.md)
+  * [NuPIC コミュニティーフォーク](chapter-1/overview-htm-core.md)
   * [インストール](chapter-1/install-htm-core/README.md)
     * [Ubuntu](chapter-1/install-htm-core/install-ubuntu.md)
     * [macOS](chapter-1/install-htm-core/install-macos.md)
@@ -17,7 +19,8 @@
   * [SP概要](chapter-4/sp-overview.md)
 * [第5章 TM（一時記憶）](chapter-5/README.md)
   * [TM 概要](chapter-5/tm-overview.md)
-* [第6章 参考アプリケーション](chapter-6/README.md)
+* [第6章 自分でつくる機械知能](chapter-6/README.md)
   * [HotGym](chapter-6/hotgym.md)
+* [おわりに](conclusion.md)
 * [引用](citing.md)
 

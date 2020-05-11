@@ -2,7 +2,7 @@
 description: Overview of htm.core
 ---
 
-# htm.core 概要
+# NuPIC コミュニティーフォーク
 
 ### オープンソース・プラットフォーム
 
