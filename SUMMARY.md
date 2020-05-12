@@ -17,6 +17,7 @@
   * [SDRのデータ形式](chapter-2/sdr-data-format.md)
   * [SDRのメソッド](chapter-2/sdr-method.md)
   * [SDRの測定ツール](chapter-2/measurement-tools-sdr.md)
+  * [SDRのメトリクス](chapter-2/metrics-sdr.md)
 * [第3章 Encode（エンコード）](chapter-3/README.md)
   * [Encode 概要](chapter-3/encode-overview.md)
 * [第4章 SP（空間プーリング）](chapter-4/README.md)
