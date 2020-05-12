@@ -2,7 +2,7 @@
 description: 自分でつくる機械知能 - How to make Machine Intelligence
 ---
 
-# HTM入門
+# HTM入門 - HTM Beginner's Book
 
 ![Title](.gitbook/assets/color.png)
 
