@@ -28,27 +28,19 @@ python3 -m pydoc htm.bindings.sdr.SDR
 
 `htm.bindings.sdr`
 
-`htm.bindings.sdr.SDR`
-
-`htm.bindings.sdr.Metrics`
-
-`htm.bindings.sdr.Sparsity`
-
-`htm.bindings.sdr.ActivationFrequency`
-
-`htm.bindings.sdr.Overlap`
+* `htm.bindings.sdr.SDR`
+* `htm.bindings.sdr.Metrics`
+* `htm.bindings.sdr.Sparsity`
+* `htm.bindings.sdr.ActivationFrequency`
+* `htm.bindings.sdr.Overlap`
 
 ### Encoders
 
 `htm.bindings.encoders` 
 
-`htm.bindings.encoders.DateEncoder` 
-
-`htm.bindings.encoders.DateEncoderParameters` 
-
-`htm.bindings.encoders. RDSE_Parameters` 
-
-`htm.bindings.encoders. ScalarEncoder` 
-
-`htm.bindings.encoders. ScalarEncoderParameters` 
+* `htm.bindings.encoders.DateEncoder` 
+* `htm.bindings.encoders.DateEncoderParameters` 
+* `htm.bindings.encoders. RDSE_Parameters` 
+* `htm.bindings.encoders. ScalarEncoder` 
+* `htm.bindings.encoders. ScalarEncoderParameters` 
 
