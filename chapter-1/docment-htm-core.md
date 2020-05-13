@@ -38,3 +38,13 @@ python3 -m pydoc htm.bindings.sdr.SDR
 
 `htm.bindings.sdr.Overlap`
 
+### Encoders
+
+`htm.bindings.encoders` 
+
+`htm.bindings.encoders.DateEncoder` 
+
+
+
+
+
