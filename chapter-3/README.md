@@ -6,3 +6,5 @@ description: Encorders of htm.core
 
 ![Chapter-3](../.gitbook/assets/computer.png)
 
+この章では、Encode（エンコード）ついて解説します。さまざまな入力データを、SDRにエンコードすることで新皮質と同じ処理が可能になります。HTMシステムでは、エンコード用のAPIが用意されています。
+

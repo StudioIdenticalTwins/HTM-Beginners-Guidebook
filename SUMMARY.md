@@ -28,6 +28,8 @@
   * [エンコーダーのメソッド](chapter-3/encoder-methods.md)
 * [第4章 SP（空間プーリング）](chapter-4/README.md)
   * [SP概要](chapter-4/overview-of-sp.md)
+  * [SPのパラメーター・メソッド](chapter-4/sp-methods.md)
+  * [SPの実装方法](chapter-4/spno.md)
 * [第5章 TM（一時記憶）](chapter-5/README.md)
   * [TM 概要](chapter-5/overview-of-tm.md)
 * [第6章 自分でつくる機械知能](chapter-6/README.md)

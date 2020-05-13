@@ -4,7 +4,7 @@ description: Metrics of SDR
 
 # SDRのメトリクス
 
-#### `htm.bindings.sdr.Sparsity`
+**`htm.bindings.sdr.Sparsity`**
 
 SDRの分散度を測定します。 指数平滑移動平均を使用して測定値を蓄積し、結果の要約を出力します。
 
@@ -15,7 +15,7 @@ SDRの分散度を測定します。 指数平滑移動平均を使用して測�
 * `Std` 標準偏差値（standard deviation）
 * `Max` 最大値
 
-#### `htm.bindings.sdr.ActivationFrequency`
+**`htm.bindings.sdr.ActivationFrequency`**
 
 SDR の各値の活性化周波数を測定します。 指数平滑移動平均を用いて測定値を蓄積し、結果の要約を出力します。
 
@@ -29,7 +29,7 @@ SDR の各値の活性化周波数を測定します。 指数平滑移動平均
 * `Max` 最大値
 * `Entropy` エントロピー
 
-#### `htm.bindings.sdr.Overlap`
+**`htm.bindings.sdr.Overlap`**
 
 SDRへの連続した割り当て間の重なりを測定します。 このクラスは、指数移動平均を使用して測定値を蓄積し、結果の要約を出力します。
 

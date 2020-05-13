@@ -1,5 +1,5 @@
 ---
-description: Data format of SDR
+description: data format of SDR
 ---
 
 # SDRのデータ形式
