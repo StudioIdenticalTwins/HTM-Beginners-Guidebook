@@ -1,0 +1,6 @@
+---
+description: Category Encoder
+---
+
+# カテゴリーエンコーダー
+

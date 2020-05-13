@@ -1,0 +1,6 @@
+---
+description: ScalarEncoder
+---
+
+# スカラエンコーダー
+

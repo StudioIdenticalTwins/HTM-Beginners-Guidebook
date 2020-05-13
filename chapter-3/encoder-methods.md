@@ -1,0 +1,6 @@
+---
+description: Encoder Methods
+---
+
+# エンコーダーのメソッド
+
