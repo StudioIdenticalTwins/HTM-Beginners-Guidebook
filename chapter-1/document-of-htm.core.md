@@ -44,7 +44,11 @@ python3 -m pydoc htm.bindings.sdr.SDR
 
 `htm.bindings.encoders.DateEncoder` 
 
+`htm.bindings.encoders.DateEncoderParameters` 
 
+`htm.bindings.encoders. RDSE_Parameters` 
 
+`htm.bindings.encoders. ScalarEncoder` 
 
+`htm.bindings.encoders. ScalarEncoderParameters` 
 
