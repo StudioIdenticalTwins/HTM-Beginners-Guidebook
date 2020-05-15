@@ -44,9 +44,7 @@ python3 -m pydoc htm.bindings.sdr.SDR
 * **`htm.bindings.encoders.ScalarEncoderParameters`** 
 
 {% hint style="warning" %}
-**`htm.bindings.encoders.DateEncoder`** 
-
-は古いドキュメントなので、`py/htm/encoders/date.py` のコメントを参照してください。
+**`htm.bindings.encoders.DateEncoder`**は古いドキュメントなので、`py/htm/encoders/date.py` のコメントを参照してください。
 {% endhint %}
 
 ### SP

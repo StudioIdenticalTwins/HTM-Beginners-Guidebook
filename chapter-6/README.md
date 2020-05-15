@@ -1,8 +1,8 @@
 ---
-description: How to make Machine Intelligence
+description: hotgym
 ---
 
-# 第6章 自分でつくる機械知能
+# 第6章 HotGym（サンプルアプリ）
 
 ![Chapter-6](../.gitbook/assets/pulse.png)
 
