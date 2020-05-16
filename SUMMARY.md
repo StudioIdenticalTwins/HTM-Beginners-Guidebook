@@ -33,6 +33,7 @@
 * [第5章 TM（一時記憶）](chapter-5/README.md)
   * [TM 概要](chapter-5/overview-of-tm.md)
   * [TM のパラメーター・メソッド](chapter-5/tm-parametor-and-methods.md)
+  * [TMの実装方法](chapter-5/tm-tutorial.md)
 * [第6章 HotGym（サンプルアプリ）](chapter-6/README.md)
   * [HotGym](chapter-6/hotgym.md)
 * [第7章 自分でつくる機械知能](chapter-7.md)
