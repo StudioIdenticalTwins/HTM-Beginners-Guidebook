@@ -4,14 +4,13 @@ description: SP Tutorial
 
 # SPの実装方法
 
-まずは、SPの実装方法をためしてみます。ライブラリを読み込み、SPのパラメータを指定し、SDRのデータ構造を作成します。
+まずは、SPの実装方法をためします。ライブラリを読み込み、パラメータを指定し、SDRのデータ構造を作成します。
 
 {% code title="python3" %}
 ```python
 from htm.bindings.sdr import SDR
 from htm.algorithms import SpatialPooler as SP
 
-# Spatial Pooler と、それを使用するために必要な SDR データ構造を作成します
 inputSDR  = SDR( dimensions = (32, 32) )
 activeSDR = SDR( dimensions = (64, 64) )
 sp = SP(inputDimensions  = inputSDR.dimensions,
@@ -24,9 +23,9 @@ sp = SP(inputDimensions  = inputSDR.dimensions,
 ```
 {% endcode %}
 
-続いて、SDRへエンコードしたデータを入力し、**`compute`** メソッドを使って空間プーラーへ変換します。
+続いて、SDRへエンコードしたデータを入力し、**`sp.compute()`** メソッドを使って空間プーラーへ変換します。
 
-ここでは、**`sdr.randomize( sparsity )`** メソッドをつかいランダムなSDRを生成します。
+ここでは、**`sdr.randomize()`** メソッドをつかいランダムなSDRを生成します。
 
 htm.coreの計算処理は、コア部分をのぞきPythonとNumpyでおこないます。ここではfor ループをつかい3回入力します。
 

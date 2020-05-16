@@ -35,6 +35,8 @@
   * [TM のパラメーター・メソッド](chapter-5/tm-parametor-and-methods.md)
   * [TMの実装方法](chapter-5/tm-tutorial.md)
 * [第6章 HotGym（サンプルアプリ）](chapter-6/README.md)
+  * [分類アルゴリズム](chapter-6/classifier-algorithms.md)
+  * [予測アルゴリズム](chapter-6/predictor-algorithms.md)
   * [HotGym](chapter-6/hotgym.md)
 * [第7章 自分でつくる機械知能](chapter-7.md)
 * [おわりに](conclusion.md)

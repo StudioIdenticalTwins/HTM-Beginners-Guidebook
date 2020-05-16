@@ -12,3 +12,5 @@ description: citing
 
 [Business vector created by ibrandify - www.freepik.com](https://www.freepik.com/free-photos-vectors/business)
 
+[http://www.non-fiction.jp/2015/08/17/sin\_wave/](http://www.non-fiction.jp/2015/08/17/sin_wave/)
+

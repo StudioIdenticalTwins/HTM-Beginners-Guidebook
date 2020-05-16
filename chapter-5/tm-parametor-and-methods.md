@@ -40,9 +40,13 @@ for line in file:
 
 **メソッド**
 
-**`compute(...)`**：
+**`tm.compute()`**：
 
 時間記憶アルゴリズムの1タイムステップを実行します。 このメソッドは activateDendrites を呼び出し、次に activateCells を呼び出します。
 
 TemporalMemoryをそのcomputeメソッドを介して使用することで、タイムステップの最後に常にgetActiveCellsを呼び出すことができるようになります。
+
+**`tm.anomaly`** :
+
+**`tm.compute()`**を呼び出すたびにアノマリースコアが更新されます。
 
