@@ -34,6 +34,7 @@
   * [TM 概要](chapter-5/overview-of-tm.md)
   * [TM のパラメーター・メソッド](chapter-5/tm-parametor-and-methods.md)
   * [TMの実装方法](chapter-5/tm-tutorial.md)
+  * [TMの自己連想記憶](chapter-5/autoassociative-memory-of-tm.md)
 * [第6章 HotGym（サンプルアプリ）](chapter-6/README.md)
   * [分類アルゴリズム](chapter-6/classifier-algorithms.md)
   * [予測アルゴリズム](chapter-6/predictor-algorithms.md)
