@@ -14,3 +14,7 @@ description: citing
 
 [http://www.non-fiction.jp/2015/08/17/sin\_wave/](http://www.non-fiction.jp/2015/08/17/sin_wave/)
 
+{% embed url="https://github.com/Uchida877/htm-trial/blob/master/anomalyTest/predictSine.py" %}
+
+
+
