@@ -39,7 +39,8 @@
 * [第6章 HotGym（サンプルアプリ）](chapter-6/README.md)
   * [予測アルゴリズム](chapter-6/predictor-algorithms.md)
   * [HotGym](chapter-6/hotgym.md)
-* [第7章 自分でつくる機械知能](chapter-7.md)
+* [第7章 自分でつくる機械知能](chapter-7/README.md)
+  * [機械知能ワタナベ](chapter-7/machine-intelligence-watanabe.md)
 * [おわりに](conclusion.md)
 * [引用](citing.md)
 
