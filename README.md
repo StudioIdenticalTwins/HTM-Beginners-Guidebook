@@ -10,3 +10,5 @@ description: 自分でつくる機械知能 - How to make Machine Intelligence
 ver.alpha May.2020
 {% endhint %}
 
+テスト
+
