@@ -41,6 +41,7 @@
   * [異常検知](chapter-6/anomaly-likelihood.md)
   * [HotGym](chapter-6/hotgym.md)
 * [第7章 自分でつくる機械知能](chapter-7/README.md)
+  * [ISSの緯度経度予測](chapter-7/prediction-of-the-latitude-and-longitude-of-the-iss.md)
   * [機械知能ワタナベ](chapter-7/machine-intelligence-watanabe.md)
 * [おわりに](conclusion.md)
 * [引用](citing.md)
