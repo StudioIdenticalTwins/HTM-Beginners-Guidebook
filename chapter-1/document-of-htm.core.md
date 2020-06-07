@@ -51,7 +51,19 @@ python3 -m pydoc htm.bindings.sdr.SDR
 
 **`htm.algorithms.SpatialPooler`** 
 
+### TM
 
+**`htm.algorithms.TemporalMemory`** 
 
+### Classifier algorithms
 
+**`htm.bindings.algorithms.Classifier`** 
+
+### Predictor algorithms
+
+**`htm.bindings.algorithms.Predictor`** 
+
+### anomaly likelihood
+
+**`htm.algorithms.anomaly_likelihood`** 
 
