@@ -14,6 +14,9 @@ description: Category Encoder
 
 {% code title="python3" %}
 ```python
+from htm.bindings.encoders import ScalarEncoder, ScalarEncoderParameters
+from htm.bindings.sdr import SDR
+
 categories = ("unknown","cat", "dog", "monkey", "slow loris")
 
 scalarEncoderParams = ScalarEncoderParameters()

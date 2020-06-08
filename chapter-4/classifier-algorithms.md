@@ -20,7 +20,7 @@ SDR 分類器は、単層の分類ネットワークの形をしています。S
 
 {% code title="python3" %}
 ```python
-iimport numpy as np
+import numpy as np
 from htm.bindings.sdr import SDR
 from htm.bindings.algorithms import Classifier
 

@@ -31,6 +31,8 @@
   * [SPのパラメーター・メソッド](chapter-4/sp-parametor-and-methods.md)
   * [SPの実装方法](chapter-4/sp-tutorial.md)
   * [分類アルゴリズム](chapter-4/classifier-algorithms.md)
+  * [分類アルゴリズムの実装方法](chapter-4/classifier-algorithms-tutorial.md)
+* [Untitled](untitled.md)
 * [第5章 TM（一時記憶）](chapter-5/README.md)
   * [TM 概要](chapter-5/overview-of-tm.md)
   * [TM のパラメーター・メソッド](chapter-5/tm-parametor-and-methods.md)
