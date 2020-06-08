@@ -77,6 +77,10 @@ print ("5 =", enc.encode(5).dense)
 ```
 {% endcode %}
 
+最小値から最大値までのSDRを可視化すると以下のようになります。
+
+![&#x56F3;3-1](../../.gitbook/assets/3-1.png)
+
 最大値を97.5で設定した確認をします。
 
 {% code title="python3" %}

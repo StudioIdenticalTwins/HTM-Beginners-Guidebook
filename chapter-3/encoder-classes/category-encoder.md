@@ -48,6 +48,10 @@ slow loris = SDR( 18 ) 12, 13, 14
 ```
 {% endcode %}
 
+各カテゴリーをまとめたSDRを可視化してみます。
+
+![&#x56F3;3-4](../../.gitbook/assets/3-4.png)
+
 Numpy配列に形式を変換してみます。
 
 {% code title="python3" %}

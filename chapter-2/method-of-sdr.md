@@ -4,6 +4,8 @@ description: Method of SDR
 
 # SDRのメソッド
 
+SDRのメソッドは以下のものがあります。Numpy形式に変換すること無く変形することで計算資源の削減になります。
+
 * **`sdr.getSparsity()`：**SDR の sparsity \(SDR の全ビット数のうち、真のビット数の割合\) を計算します。
 * **`sdr.getOverlap( sdr )`** ：両方のSDRに共通する真のビット数を計算します。
 * **`sdr.randomize( sparsity )`** ``：ランダムな SDR を作成し、SDR の現在の値を上書きします。 結果として、一様にランダムな活性化が得られます。

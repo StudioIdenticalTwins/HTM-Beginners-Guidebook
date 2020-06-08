@@ -55,6 +55,10 @@ xmas =       SDR( 16 ) 0, 1, 2, 3
 ```
 {% endcode %}
 
+可視化してみます。
+
+![&#x56F3;3-3](../../.gitbook/assets/3-3.png)
+
 Numpy配列に形式を変換してみます。
 
 {% code title="python3" %}

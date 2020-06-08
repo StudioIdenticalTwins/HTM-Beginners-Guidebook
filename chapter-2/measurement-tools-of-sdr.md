@@ -32,7 +32,11 @@ print( M )
 ```
 {% endcode %}
 
-実行結果は以下のように出力されます。
+SDRを可視化してみます。
+
+![&#x56F3;2-2](../.gitbook/assets/.png.png)
+
+**`SDR.Metrics()`** による測定結果は以下のように出力されます。
 
 {% code title="terminal" %}
 ```bash

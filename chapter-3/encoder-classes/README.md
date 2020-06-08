@@ -16,5 +16,5 @@ description: Encoder classes
 * **`RDSE`**：ランダム分散スカラーエンコーダ \(RDSE\)
 * **`DateEncoder`**：日付エンコーダー
 
-NuPICからの変更点として、カテゴリークラスはなくなり、`ScalarEncoder` もしくは `RDSE` クラスのメソッドで `category` を指定するようになりました。
+NuPICからの変更点として、カテゴリークラスはなくなり、**`ScalarEncoder`** もしくは **`RDSE`** クラスのメソッドで **`category`** を指定するようになりました。
 

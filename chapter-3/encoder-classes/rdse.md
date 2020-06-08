@@ -66,6 +66,10 @@ print ("5 =", enc.encode(5))
 ```
 {% endcode %}
 
+最小値から最大値までの結合したSDRを可視化してみます。
+
+![&#x56F3;3-2](../../.gitbook/assets/3-2.png)
+
 Numpy配列に形式を変換してみます。
 
 {% code title="python3" %}

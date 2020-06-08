@@ -6,16 +6,6 @@ description: Classifier algorithms
 
 SDR 分類器は、単層の分類ネットワークの形をしています。SDRを入力として受け取り、カテゴリの予測分布を出力します。
 
-{% code title="python3" %}
-```python
-inputData  = SDR( 1000 ).randomize( 0.02 )
-categories = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 }
-clsr = Classifier()
-clsr.learn( inputData, categories['B'] )
-numpy.argmax( clsr.infer( inputData ) )  ->  categories['B']
-```
-{% endcode %}
-
 カテゴリは、符号なし整数でラベル付けされます。 他のデータ型は、列挙するか、正整数に変換する必要があります。 出力単位は、最大カテゴリラベルの数だけあります。
 
 推論の間、出力は最初にすべての入力の加重和を行い、その後、カテゴリーラベルの予測分布を得るためにソフトマックス非線形関数を実行することによって計算されます。
@@ -30,60 +20,34 @@ numpy.argmax( clsr.infer( inputData ) )  ->  categories['B']
 
 {% code title="python3" %}
 ```python
-import numpy as np
+iimport numpy as np
 from htm.bindings.sdr import SDR
 from htm.bindings.algorithms import Classifier
 
 categories = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 }
 
-for i in categories:
-    # ランダムなSDRを作成し、カテゴリに関連付けます。
-    inputData  = SDR( dimensions = (1000 , ) ).randomize( 0.02 )
-    print("-"*70 )
-    print("inputData: ",inputData)
-    clsr = Classifier()
-    clsr.learn( inputData, categories[i] )
+# ランダムなSDRを作成し、カテゴリに関連付けます。
+inputData  = SDR( dimensions = (1000 , ) ).randomize( 0.02 )
+print("-"*70 )
+print("inputData: ",inputData)
+clsr = Classifier()
+clsr.learn( inputData, categories['D'] )
+print("-"*70 )
+print("PDF: ",clsr.infer( inputData ) )
+print("-"*70 )
+predict = np.argmax( clsr.infer( inputData ) )  #->  categories['D']
+print("predict index: ",predict)
 
-    print("-"*70 )
-    print("PDF: ",clsr.infer( inputData ) )
-    print("-"*70 )
-    predict = np.argmax( clsr.infer( inputData ) )  #->  categories['B']
-    print("predict index: ",predict)
-
-    predict_key = [k for k, v in categories.items() if v == predict]
-    print("-"*70 )
-    print("predict lebel: ",predict_key[0])
+predict_key = [k for k, v in categories.items() if v == predict]
+print("-"*70 )
+print("predict lebel: ",predict_key[0])
 ```
 {% endcode %}
 
 {% code title="terminal" %}
 ```bash
 ----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 216, 281, 360, 376, 429, 581, 587, 594, 626, 680, 729, 776, 783, 856, 860, 911, 916, 925, 951, 967
-----------------------------------------------------------------------
-PDF:  [1.0]
-----------------------------------------------------------------------
-predict index:  0
-----------------------------------------------------------------------
-predict lebel:  A
-----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 23, 53, 77, 270, 285, 338, 399, 423, 489, 584, 586, 643, 665, 698, 723, 798, 875, 939, 948, 975
-----------------------------------------------------------------------
-PDF:  [0.49500017907770616, 0.504999846488284]
-----------------------------------------------------------------------
-predict index:  1
-----------------------------------------------------------------------
-predict lebel:  B
-----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 8, 13, 87, 159, 176, 227, 261, 265, 289, 414, 419, 428, 665, 683, 702, 725, 794, 803, 886, 915
-----------------------------------------------------------------------
-PDF:  [0.3311037647153171, 0.3311037647153171, 0.33779250477135586]
-----------------------------------------------------------------------
-predict index:  2
-----------------------------------------------------------------------
-predict lebel:  C
-----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 46, 71, 79, 87, 189, 288, 331, 363, 384, 488, 529, 578, 618, 620, 629, 774, 779, 881, 963, 972
+inputData:  SDR( 1000 ) 0, 157, 167, 182, 218, 301, 483, 491, 500, 631, 646, 778, 784, 785, 828, 842, 883, 893, 909, 958
 ----------------------------------------------------------------------
 PDF:  [0.248743755155006, 0.248743755155006, 0.248743755155006, 0.2537687125734917]
 ----------------------------------------------------------------------
@@ -93,6 +57,10 @@ predict lebel:  D
 ```
 {% endcode %}
 
+PDFを可視化すると以下のようになります。
+
+![&#x56F3;4-1](../.gitbook/assets/4-1.png)
+
 ### スカラー分類器
 
 {% code title="python3" %}
@@ -100,57 +68,41 @@ predict lebel:  D
 import numpy as np
 from htm.bindings.sdr import SDR
 from htm.bindings.algorithms import Classifier
-import random
+
+clsr = Classifier()
 
 # スカラー値を推定します． 
 # Classifierはカテゴリしか受け付けないので、
 # 最小値を引き算して解像度で割ることで、
 # 実数値の入力をビン(別名バケツ)に入れてください。
-
-
+scalar     = 567.8
 minimum    = 500
 resolution = 10
 
-for i in range(4):
-    scalar     = random.uniform(500, 600)
-    print("-"*70 )
-    print("scalar: ", scalar)
-    inputData  = SDR( dimensions = (1000 , ) ).randomize( 0.02 )
-    print("-"*70 )
-    print("inputData: ",inputData)
-    clsr.learn( inputData, int((scalar - minimum) / resolution) )
-    predict = np.argmax( clsr.infer( inputData ) ) * resolution + minimum  #->  560
-    print("-"*70 )
-    print("predict : ",predict)
+inputData  = SDR( dimensions = (1000 , ) ).randomize( 0.02 )
+print("-"*70 )
+print("inputData: ",inputData)
+clsr.learn( inputData, int((scalar - minimum) / resolution) )
+print("-"*70 )
+print("PDF: ",clsr.infer( inputData ) )
+predict = np.argmax( clsr.infer( inputData ) ) * resolution + minimum  #->  560
+print("-"*70 )
+print("predict : ",predict)
 ```
 {% endcode %}
 
 {% code title="terminal" %}
 ```bash
 ----------------------------------------------------------------------
-scalar:  504.5772223401718
+inputData:  SDR( 1000 ) 22, 26, 74, 135, 137, 204, 237, 450, 570, 596, 627, 651, 665, 741, 762, 809, 832, 867, 953, 997
 ----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 38, 127, 173, 180, 193, 301, 423, 445, 466, 519, 585, 739, 755, 774, 794, 808, 849, 858, 891, 962
+PDF:  [0.14244605336420796, 0.14244605336420796, 0.14244605336420796, 0.14244605336420796, 0.14244605336420796, 0.14244605336420796, 0.1453236546617378]
 ----------------------------------------------------------------------
-predict :  500
-----------------------------------------------------------------------
-scalar:  541.5178914857975
-----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 54, 91, 125, 212, 247, 251, 253, 281, 319, 447, 540, 552, 585, 611, 709, 761, 763, 818, 940, 958
-----------------------------------------------------------------------
-predict :  540
-----------------------------------------------------------------------
-scalar:  541.0315526250993
-----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 15, 128, 156, 172, 255, 288, 307, 317, 346, 444, 461, 493, 528, 654, 669, 670, 809, 811, 873, 973
-----------------------------------------------------------------------
-predict :  540
-----------------------------------------------------------------------
-scalar:  598.5775404074841
-----------------------------------------------------------------------
-inputData:  SDR( 1000 ) 10, 15, 85, 151, 168, 252, 358, 371, 436, 521, 542, 695, 736, 822, 851, 863, 869, 916, 917, 969
-----------------------------------------------------------------------
-predict :  590
+predict :  560
 ```
 {% endcode %}
+
+PDFを可視化すると以下のようになります。
+
+![&#x56F3;4-2](../.gitbook/assets/4-2.png)
 
