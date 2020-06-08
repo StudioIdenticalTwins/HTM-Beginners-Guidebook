@@ -59,7 +59,7 @@ predict lebel:  D
 
 PDFを可視化すると以下のようになります。
 
-![&#x56F3;4-1](../.gitbook/assets/4-1.png)
+![&#x56F3;4-1](../.gitbook/assets/4-4.png)
 
 ### スカラー分類器
 
@@ -104,5 +104,5 @@ predict :  560
 
 PDFを可視化すると以下のようになります。
 
-![&#x56F3;4-2](../.gitbook/assets/4-2.png)
+![&#x56F3;4-2](../.gitbook/assets/4-5.png)
 

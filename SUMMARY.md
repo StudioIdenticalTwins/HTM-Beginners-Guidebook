@@ -37,6 +37,7 @@
   * [TMの実装方法](chapter-5/tm-tutorial.md)
   * [TMの自己連想記憶](chapter-5/autoassociative-memory-of-tm.md)
   * [予測アルゴリズム](chapter-5/predictor-algorithms.md)
+  * [予測アルゴリズムの実装方法](chapter-5/predictor-algorithms-tutorial.md)
 * [第6章 HotGym（サンプルアプリ）](chapter-6/README.md)
   * [異常検知](chapter-6/anomaly-likelihood.md)
   * [HotGym](chapter-6/hotgym.md)
