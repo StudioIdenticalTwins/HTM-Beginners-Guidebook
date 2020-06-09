@@ -6,5 +6,5 @@ description: How to make Machine Intelligence
 
 ![Chapter-7](../.gitbook/assets/chapter-7.png)
 
-
+この章では、オリジナルアプリの作例を解説します。
 
