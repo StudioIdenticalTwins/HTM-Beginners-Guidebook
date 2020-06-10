@@ -44,7 +44,10 @@
   * [異常検知の実装方法](chapter-6/anomaly-likelihood-tutorial.md)
   * [HotGym](chapter-6/hot-gym.md)
 * [第7章 自分でつくる機械知能](chapter-7/README.md)
-  * [機械知能ワタナベ](chapter-7/machine-intelligence-watanabe.md)
+  * [機械知能ワタナベ（1）](chapter-7/machine-intelligence-watanabe-1.md)
+  * [機械知能ワタナベ（2）](chapter-7/machine-intelligence-watanabe-2.md)
+  * [機械知能ワタナベ（3）](chapter-7/machine-intelligence-watanabe-3.md)
+  * [機械知能ワタナベ（4）](chapter-7/watanabe4.md)
 * [おわりに](conclusion.md)
 * [引用](citing.md)
 
