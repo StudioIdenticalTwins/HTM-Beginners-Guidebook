@@ -1,6 +1,6 @@
 # Table of contents
 
-* [HTM入門](README.md)
+* [HIERARCHICAL TEMPORAL MEMORY](README.md)
 * [はじめに](introduction.md)
 * [第1章 HTM（階層的一時記憶）](chapter-1/README.md)
   * [HTM概要](chapter-1/overview-of-htm.md)
