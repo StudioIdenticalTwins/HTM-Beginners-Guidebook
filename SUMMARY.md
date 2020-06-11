@@ -1,6 +1,6 @@
 # Table of contents
 
-* [HTM / Hierarchical Temporal Memory Unofficial Japanese Biginner's guide](README.md)
+* [HTM / Hierarchical Temporal Memory 非公式ビギナーズガイド（日本語版）](README.md)
 * [はじめに](introduction.md)
 * [第1章 HTM（階層的一時記憶）](chapter-1/README.md)
   * [HTM概要](chapter-1/overview-of-htm.md)
