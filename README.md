@@ -1,5 +1,5 @@
 ---
-description: HTM Unofficial Biginner's guide(Japanse)
+description: HTM / Hierarchical Temporal Memory Unofficial Biginner's guidebook(Japanse)
 ---
 
 # HTM / Hierarchical Temporal Memory 非公式ビギナーズガイドブック（日本語版）
