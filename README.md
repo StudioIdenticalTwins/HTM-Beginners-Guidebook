@@ -1,8 +1,8 @@
 ---
-description: 階層型一時記憶 非公式日本語ビギナーズガイド
+description: HTM Unofficial Biginner's guide(Japanse)
 ---
 
-# HTM / Hierarchical Temporal Memory Unofficial Japanese Biginner's guide
+# HTM / Hierarchical Temporal Memory 非公式ビギナーズガイドブック（日本語版）
 
 ![Title](.gitbook/assets/title.png)
 
