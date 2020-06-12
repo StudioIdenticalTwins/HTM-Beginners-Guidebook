@@ -24,5 +24,11 @@ AI技術の進展は目覚ましく、画像認識や音声認識に続いて、
 
 \*\*\*
 
-時は流れ、研究が進んだ現在では、オープンソース・プラットフォームをつかって実際に知能を持った機械をつくることができます。さあ、一緒にはじめてみましょう。
+時は流れ、現在では、オープンソース・プラットフォームをつかって実際に機械知能をつくることができます。さあ、一緒にはじめてみましょう。
+
+{% hint style="info" %}
+以下のリンクからサンプルコードを試すことができます。
+
+\*\*\*\*[**StudioIdenticalTwins / HTM-Beginners-Notebook**](https://github.com/StudioIdenticalTwins/HTM-Beginners-Notebook)\*\*\*\*
+{% endhint %}
 
