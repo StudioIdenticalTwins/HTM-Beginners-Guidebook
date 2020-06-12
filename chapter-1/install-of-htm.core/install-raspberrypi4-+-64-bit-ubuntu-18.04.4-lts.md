@@ -16,5 +16,5 @@ export ARCHFLAGS="-arch arm64"
 ```
 {% endcode %}
 
-それ以外は、通常のUbuntuとおなじインストール方法をおこないます。ただし、コンパイラー依存関係が少し複雑なのでここでは説明を省きます。詳細は [**htm-beginners-book-1-1.ipynb**](https://github.com/StudioIdenticalTwins/HTM-Beginners-Notebook/blob/master/chapter-1/htm-beginners-book-1-1.ipynb) を参照してください。
+それ以外は、通常のUbuntuとおなじインストール方法をおこないます。ただし、コンパイラー依存関係が少し複雑なのでここでは説明を省きます。詳細は [**htm-beginners-guidebook-1-1.ipynb**](https://github.com/StudioIdenticalTwins/HTM-Beginners-Notebook/blob/master/chapter-1/htm-beginners-guidebook-1-1.ipynb) を参照してください。
 
