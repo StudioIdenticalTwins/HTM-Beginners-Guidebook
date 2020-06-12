@@ -28,7 +28,9 @@ AI技術の進展は目覚ましく、画像認識や音声認識に続いて、
 
 {% hint style="info" %}
 以下のリンクからサンプルコードを試すことができます。
-
-\*\*\*\*[**StudioIdenticalTwins / HTM-Beginners-Notebook**](https://github.com/StudioIdenticalTwins/HTM-Beginners-Notebook)\*\*\*\*
 {% endhint %}
+
+{% embed url="https://github.com/StudioIdenticalTwins/HTM-Beginners-Notebook" %}
+
+\*\*\*\*
 

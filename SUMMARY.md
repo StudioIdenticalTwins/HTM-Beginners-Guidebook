@@ -9,7 +9,7 @@
     * [Ubuntu](chapter-1/install-of-htm.core/install-ubuntu-18.04.4.md)
     * [macOS](chapter-1/install-of-htm.core/install-macos-catalina.md)
     * [Windows](chapter-1/install-of-htm.core/install-windows10-wsl2.md)
-    * [ARM64](chapter-1/install-of-htm.core/install-raspberrypi4-+-64-bit-ubuntu-18.04.4-lts.md)
+    * [ARM64](chapter-1/install-of-htm.core/install-raspberrypi4-+-raspberry-pi-os-64-bit-beta-test-version.md)
   * [ドキュメント](chapter-1/document-of-htm.core.md)
   * [チュートリアル](chapter-1/tutorial-of-htm.core.md)
 * [第2章 SDR（スパース分散表現）](chapter-2/README.md)
